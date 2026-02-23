@@ -108,23 +108,24 @@ streamlit run app.py
 
 ## Application Screenshots
 
+
 ### 1. Upload Dataset Screen
-![Upload Screen](screenshots\1.png)
+<img src="screenshots/1.png" width="800">
 
 ### 2. Raw Dataset Preview
-![Raw Preview](screenshots\2.png)
+<img src="screenshots/2.png" width="800">
 
 ### 3. Cleaned Dataset Preview
-![Cleaned Preview](screenshots\3.png)
+<img src="screenshots/3.png" width="800">
 
 ### 4. Cleaning Summary
-![Cleaning Summary](screenshots\4.png)
+<img src="screenshots/4.png" width="800">
 
 ### 5. Validation Report
-![Validation Report](screenshots\5.png)
+<img src="screenshots/5.png" width="800">
 
 ### 6. Detailed report
-![Architecture](screenshots\6.png)
+<img src="screenshots/6.png" width="800">
 
 ## Author
 
