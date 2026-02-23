@@ -20,7 +20,7 @@ An intelligent data cleaning system built using Python and Streamlit that automa
 
 ## System Architecture
 
-![Architecture](screenshots\architecture.png)
+!<img src="screenshots/architecture.png" width="800">
 
 ---
 
