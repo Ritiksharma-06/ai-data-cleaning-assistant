@@ -5,49 +5,63 @@ An intelligent data cleaning system built using Python and Streamlit that automa
 
 ---
 
-## Features
+## ✨ Features
 
-- Missing value detection and imputation
-- Outlier detection using percentile capping
-- Duplicate record removal
-- Data type correction
-- Validation report with statistical improvement metrics
-- Interactive Streamlit UI
-- Download cleaned dataset
-- Modular and scalable architecture
+- ✅ Missing value detection and imputation  
+- ✅ Intelligent outlier detection using percentile capping  
+- ✅ Duplicate record removal  
+- ✅ Automatic data type correction  
+- ✅ Validation report with statistical improvement metrics  
+- ✅ Interactive Streamlit UI  
+- ✅ Download cleaned dataset  
+- ✅ Modular and scalable architecture 
 
 ---
 
-## System Architecture
+## 🏗️ System Architecture
 
 !<img src="screenshots/architecture.png" width="800">
 
 ---
 
-## Project Structure
-
+## 📁 Project Structure
+```
 ai-data-cleaning-assistant/
-│
 ├── app.py
 ├── requirements.txt
 ├── README.md
-│
 ├── src/
 │ ├── cleaning_pipeline.py
 │ ├── data_loader.py
-│ ├── datatype_handler.py
-│ ├── duplicate_handler.py
 │ ├── missing_handler.py
 │ ├── outlier_handler.py
-│ ├── report_generator.py
-│
+│ ├── duplicate_handler.py
+│ ├── datatype_handler.py
+│ └── report_generator.py
 ├── data/
+│ ├── raw/
+│ └── cleaned/
 ├── reports/
-└── screenshots/
+├── screenshots/
+└── venv/
+```
 
 
 
 ---
+
+## Architecture Overview
+
+The project follows a modular pipeline architecture:
+
+- Streamlit UI → User uploads dataset  
+- Cleaning Pipeline → Executes cleaning workflow  
+- Missing Handler → Fixes missing values  
+- Outlier Handler → Detects and corrects outliers  
+- Duplicate Handler → Removes duplicate records  
+- DataType Handler → Corrects data types  
+- Validation Module → Validates cleaning quality  
+- Report Generator → Generates validation report  
 
 ## Installation
 
@@ -69,7 +83,7 @@ streamlit run app.py
 
 ---
 
-## Usage
+🧪 Usage
 
 1. Upload CSV or Excel dataset
 2. Click "Run AI Cleaning"
@@ -78,7 +92,37 @@ streamlit run app.py
 
 ---
 
-## Results Example
+---
+🔬 Data Cleaning Techniques Used
+Missing Value Handling
+
+Numeric → Median imputation
+
+Categorical → Mode imputation
+
+Outlier Detection
+
+Percentile capping (1st and 99th percentile)
+
+Skew-aware detection
+
+Duplicate Detection
+
+Automatic duplicate removal
+
+Data Type Correction
+
+Automatic numeric and categorical type correction
+
+Validation Intelligence
+
+Standard deviation comparison
+
+Variance reduction analysis
+
+---
+
+📊 Results Example
 
 | Metric | Before | After | Improvement |
 |------|--------|--------|-------------|
@@ -87,13 +131,14 @@ streamlit run app.py
 
 ---
 
-## Technologies Used
+🛠️ Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Streamlit
 - VS Code
+- GitHub
 
 ---
 
@@ -127,7 +172,7 @@ streamlit run app.py
 ### 6. Detailed report
 <img src="screenshots/6.png" width="800">
 
-## Author
+👨‍💻 Author
 
 **Ritik Sharma**  
 **Software Engineer**  
