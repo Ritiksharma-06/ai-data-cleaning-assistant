@@ -163,13 +163,12 @@ Variance reduction analysis
 ### 3. Cleaned Dataset Preview
 <img src="screenshots/3.png" width="800">
 
-### 4. Cleaning Summary
+### 4. Validation report
 <img src="screenshots/4.png" width="800">
 
-### 5. Validation Report
+### 5. Detailed analysis
 <img src="screenshots/5.png" width="800">
 
-### 6. Detailed report
 <img src="screenshots/6.png" width="800">
 
 👨‍💻 Author
